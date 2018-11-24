@@ -1,3 +1,5 @@
+package k_test3;
+
 public class Person {
     private String login;
     private String password;
