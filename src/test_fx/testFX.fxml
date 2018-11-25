@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.canvas.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
 <AnchorPane prefHeight="226.0" prefWidth="327.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test_fx.contoller">
    <children>
       <Button fx:id="button1" layoutX="43.0" layoutY="160.0" mnemonicParsing="false" text="Кнопка 1" />
-      <Button fx:id="button2" layoutX="156.0" layoutY="160.0" mnemonicParsing="false" onAction="#close" text="Кнопка 2" />
+      <Button fx:id="button2" layoutX="204.0" layoutY="160.0" mnemonicParsing="false" onAction="#close" text="Кнопка 2" />
       <Label fx:id="label1" layoutX="43.0" layoutY="40.0" text="Текст 1" />
       <Label fx:id="label2" layoutX="43.0" layoutY="72.0" text="Текст 2" />
       <Label fx:id="label3" layoutX="43.0" layoutY="105.0" text="Текст 3" />
       <TextField fx:id="textField1" layoutX="114.0" layoutY="36.0" promptText="текстовое поле 1" />
       <TextField fx:id="textField2" layoutX="114.0" layoutY="68.0" promptText="текстовое поле 2" />
       <TextField fx:id="textField3" layoutX="114.0" layoutY="101.0" promptText="текстовое поле 3" />
+      <Button fx:id="button3" layoutX="123.0" layoutY="160.0" mnemonicParsing="false" onAction="#testOpen" text="Кнопка 3" />
    </children>
 </AnchorPane>
